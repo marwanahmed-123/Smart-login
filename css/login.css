@@ -1,0 +1,96 @@
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+.box {
+  background-color: #24353f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 30px 4px;
+  padding: 40px;
+}
+.box h1 {
+  font-weight: 400;
+  color: #17a2b8;
+  text-align: center;
+}
+.box input {
+  background-color: transparent;
+  color: white;
+}
+.box input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.box input:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+}
+.box .error-msg {
+  color: red;
+  text-align: center;
+}
+.box button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #17a2b8;
+  border-color: #17a2b8;
+  transition: 0.3s;
+}
+.box button:hover {
+  background-color: #17a2b8;
+  color: white;
+  border-color: #17a2b8;
+}
+.box .register {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.box .register a {
+  color: white;
+  text-decoration: none;
+}
+.box .register a:hover {
+  text-decoration: underline;
+}
+.home {
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 30px 4px;
+  background-color: #24353f;
+}
+.home .logo {
+  color: white;
+}
+.home .logout {
+  background-color: transparent;
+  border-radius: 1px;
+  border: 1px solid #ffc107ec;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+}
+.home .logout:hover {
+  background-color: #ffc107ec;
+  color: rgba(255, 255, 255, 0.8);
+}
+.home .content {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+.home .welcome-msg {
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 30px 4px;
+  text-align: center;
+  font-size: 50px;
+  color: #17a2b8;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
